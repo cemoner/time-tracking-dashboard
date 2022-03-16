@@ -1,0 +1,50 @@
+@import "variables";
+@import "global";
+@import "gridView";
+@import "texts";
+
+.desktop {
+  display: none;
+}
+
+#gridView {
+  margin: 24vw 6.4vw;
+  .photoContainer {
+    background-color: hsl(281, 100%, 50%);
+    width: 87.2vw;
+    max-height: 64vw;
+    border-radius: 2%;
+    #photoMobile {
+      padding: 0;
+      max-width: 100%;
+      opacity: 0.75;
+      border-radius: 2%;
+    }
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .mobile {
+    display: none;
+  }
+  #gridView {
+    grid-template-columns: repeat(2, 50%);
+    width: 76vw;
+    margin: 0;
+    margin-top: 16vh;
+    margin-bottom: 16vh;
+    .photoContainer {
+      width: 38vw;
+      height: 31.386vw;
+      border-radius: 1%;
+      #photoDesktop {
+        width: 100%;
+        opacity: 0.7;
+        border-radius: 0.5%;
+      }
+    }
+  }
+  .desktop {
+    display: block;
+  }
+}
