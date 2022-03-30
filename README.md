@@ -1,6 +1,6 @@
 # time-tracking-dashboard
 
-This is a personal website made by me. I tried doing some challenges to improve my skills. I found this challenge on frontendmentor.io! You can access to the page by using the link in the side. https://quizzical-payne-03d6e7.netlify.app/
+This is a personal website made by me. I tried doing some challenges to improve my skills. I found this challenge on frontendmentor.io! You can access to the page by using the link in the side. https://youthful-jepsen-ff1a37.netlify.app
 
 Some Photos
 
